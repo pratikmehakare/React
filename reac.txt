@@ -1,0 +1,55 @@
+For Tailwind
+follow instruction on tailwind- framework - react
+
+weak -1========================================================================================================================
+
+components - block of code
+props - properties /parameter
+useState - manage state
+useEffect -  manage after effect og rendering
+Toast - Notification popups
+tofetch api data
+
+===============================================================================================================================
+
+weak -2
+
+Form - form like html
+Route - routing from one componet to another 
+useNavigate - to navigate/move to another component or etc..
+
+
+===============================================================================================================================
+
+weak -3
+
+axios - or of fetch() api no need to convert in json
+custom hook - repeatative code which are used by many components so write it in one hook it is same like component/function
+-------------------------------------------------------------------------------------------------------------------------------
+
+context api or useContext  ->it solve the problem of sending props from child to parent or vs. No need to pass props throgh middle components who do not require that
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+-----/site/march?tag='festiva'&&level=1 from this '/site/march' is loaction.pathname , 'tag='festiva'&&level=1' then useSearchP
+
+useSearchParams() - it acess query parameter from url like -----/site/march?tag='festiva'&&level=1 .
+    = [searchParam,setSearchParam] searchParams is a object that consist query parameter like 'tag='festiva' ,level=1'
+    setSearchParam it is function  used to update like tag='apple'
+
+useLocation() consists pathname ,hash value, key, search parameter
+     pathname from '-----/site/march/13' this '/site/march/13' will be path and it will split('/') into site,march,13
+     (basis on /), at(-1) will give 13 it give last num
+     laction.pathname '/site/march/13
+     split(/)  site, march, 13
+     at(-1)   13
+     search ?page=1 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+redux-rtk toolkit    store-collection of slice(like context)
+useSelector = if any data which we want fetch from slice use this
+useDispatch() = to access/call actions(like inc dec) from slice
+
+
+===============================================================================================================================
